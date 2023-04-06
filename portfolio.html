@@ -14,7 +14,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      href="./modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
@@ -37,9 +37,19 @@
         </div>
         <ul class="contact-header">
           <li>
-            <a class="link-contact-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link-contact-header" href="mailto:info@devstudio.com">
+              <svg class="icon-mailto" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a class="link-contact-header" href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="link-contact-header" href="tel:+48111111111">
+              <svg class="icon-smartphone" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+48 111 111 111</a
+            >
+          </li>
         </ul>
       </div>
     </header>
@@ -153,30 +163,46 @@
 
     <footer class="footer-box">
       <div class="cointainer">
-        <a class="a" href="./"
-          ><span class="web">Web</span><span class="studio-footer">Studio</span></a
-        >
-        <address>
-          <ul>
-            <li>
-              <a
-                class="footer-address"
-                href="https://goo.gl/maps/4mvbAodd3Mhs6b2KA"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
-            </li>
-            <li>
-              <a class="footer-contact" class="footer" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="footer-contact" class="footer" href="tel:+48111111111">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
+        <div>
+          <a class="a-footer" href="./"
+            ><span class="web">Web</span><span class="studio-footer">Studio</span></a
+          >
+          <address>
+            <ul>
+              <li>
+                <a
+                  class="footer-address"
+                  href="https://goo.gl/maps/4mvbAodd3Mhs6b2KA"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a class="footer-contact" class="footer" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-contact" class="footer" href="tel:+48111111111">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="join-us">DOŁĄCZ DO NAS</p>
+          <div class="join-us-container">
+            <svg class="icon-join-us" width="20px" height="20px" vievBox="0 0 40 40">
+              <use href="./images/icons.svg#icon-instagram-2"></use></svg
+            ><svg class="icon-join-us" width="20px" height="20px" vievBox="0 0 40 40">
+              <use href="./images/icons.svg#icon-twitter-1"></use></svg
+            ><svg class="icon-join-us" width="20px" height="20px" vievBox="0 0 40 40">
+              <use href="./images/icons.svg#icon-facebook-1"></use></svg
+            ><svg class="icon-join-us" width="20px" height="20px" vievBox="0 0 40 40">
+              <use href="./images/icons.svg#icon-linkedin-1"></use>
+            </svg>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
