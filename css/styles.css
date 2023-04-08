@@ -422,15 +422,15 @@ ul {
 }
 
 .icon-container {
-  margin: 16px 32px 30px 32px;
+  margin: 16px 0px 30px 0px;
   justify-content: space-evenly;
-  gap: 10px;
   display: flex;
 }
 
 .icon-social-media {
   fill: #afb1b8;
   padding: 14px;
+  display: flex;
 }
 
 .icon-social-media:focus,
@@ -495,7 +495,7 @@ ul {
 }
 
 .join-us-container {
-  margin: 0px 32px 30px 70px;
+  margin-left: 70px;
   justify-content: space-evenly;
   gap: 10px;
   display: flex;
@@ -507,11 +507,12 @@ ul {
 
 .icon-join-us {
   fill: #afb1b8;
-  padding: 20px 10px 0px 0px;
+  /* padding: 20px 10px 0px 0px; */
   background-color: #ffffff1a;
   padding: 14px;
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
 }
 
 .icon-join-us:focus,
@@ -634,10 +635,4 @@ ul {
 .portfolio-p {
   padding: 0px 24px 20px 24px;
   margin: 0px;
-}
-
-.icon-sm {
-  padding: 10px;
-  background: #ffffff;
-  border-radius: 50%;
 }
